@@ -1,0 +1,32 @@
+
+*{margin: 0;}
+.calc{
+    margin: 0;
+    margin-top: 15px;
+    background-color: rgb(95, 89, 177);}
+#res{
+    width: 90%;
+    font-size: 24px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;}
+button{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    border: none;
+    font-size: 20px;
+    cursor: grab;}
+.btns{
+    margin-top: 15px;
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: repeat(3, 1fr);}
+.opr{
+    color: black;}
+.num{
+    background-color: rgb(170, 210, 223);}
+.deci{
+    background-color: rgb(170, 210, 223);}
+.equal{
+    color: black;}
+.reset{
+    color: black;}
